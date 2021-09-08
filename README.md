@@ -4,12 +4,18 @@
 
 ![alt](https://raw.githubusercontent.com/TNhi27/MiniProjectR2S/main/Document/ktud.jpg)
 
+
+## Diagram
+![alt](https://github.com/TNhi27/MiniProjectR2S/blob/main/Document/class.jpg?raw=true)
+![alt](https://github.com/TNhi27/MiniProjectR2S/blob/main/Document/database.jpg?raw=true)
+
 ## Backend
 * Sừ dụng Spring boot + Spring security
 * Spring JPA để kết nốI csdl
 * Hệ quản trị csdl sử dụng MYSQL
 * Sử dụng cơ chế xác thực JWT
 * Tích hơp SWAGGRER 2 để tạo document cho restful api
+* 
 ## FRONTEND
 * Sử dụng REACTJS để xây dựng giao diện
 * React router để chuyển trang
