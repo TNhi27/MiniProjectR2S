@@ -1,0 +1,82 @@
+.users{
+    padding:20px 100px;
+    display:flex;
+    .form{  
+        flex:1;
+        .image-user{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            img{
+                width: 160px;
+                height:200px;
+            }
+        }
+        .form-gr{
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 16px;
+                margin-right: 10px;
+                width:100px;
+            }
+            input{
+                height:30px;
+                font-size: 16px;
+                border-color: #B2B8A3;
+                outline: none;
+                border-radius: 5px;
+            }
+            textarea{
+                font-size:16px;
+            }
+        }
+        .edit-container{
+           display: flex;
+            .edit-button{
+                background-color: #2f4e5e;
+                padding: 10px 20px;
+                color:white;
+                border-radius: 5px;
+                outline: none;
+                margin:0px 10px;
+                border:none;
+            }
+        }
+    }
+    .table{
+        flex:2;
+        .btn{
+            background-color: #F4C7AB;
+            padding:5px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            border:none;
+        }
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+          }
+          
+          #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+          
+          #customers tr:nth-child(even){background-color: #f2f2f2;}
+          
+          #customers tr:hover {background-color: #ddd;}
+          
+          #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04AA6D;
+            color: white;
+          }
+    }
+}

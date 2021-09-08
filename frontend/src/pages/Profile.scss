@@ -1,0 +1,55 @@
+.profile{
+    padding:20px 100px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    .form{  
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .image-user{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            img{
+                width: 160px;
+                height:200px;
+            }
+        }
+        .form-gr{
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 16px;
+                margin-right: 10px;
+                width:100px;
+            }
+            input{
+                height:30px;
+                font-size: 16px;
+                border-color: #B2B8A3;
+                outline: none;
+                border-radius: 5px;
+            }
+            textarea{
+                font-size:16px;
+            }
+        }
+        .edit-container{
+           
+            .edit-button{
+                background-color: #2f4e5e;
+                padding: 10px 20px;
+                color:white;
+                border-radius: 5px;
+                outline: none;
+                margin:0px 10px;
+                border:none;
+            }
+        }
+    }
+   
+}

@@ -1,0 +1,38 @@
+.home{
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            width: 130px;
+            height: 50pxpx;
+        }
+        nav{
+            ul{
+                li{
+                    display: inline-block;
+                    padding: 12px 20px;
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        &::after {
+                            content: " ";
+                            background: red;
+                            width: 0%;
+                            height: 2px;
+                            display: block;
+                            margin: auto;
+                            transition: all 0.5s;
+                        }
+                        &:hover {
+                            &::after {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}
