@@ -61,8 +61,8 @@ function Users(props) {
   const save = () => {
     saveUser(user)
       .then((res) => {
-        getListUsers(0, 5).then((res) => {
-          setUser(res.data.content);
+        getListUsers(0, 20).then((res) => {
+          setUsers(res.data.content);
         });
         alert("Save thanh cong");
       })
@@ -74,8 +74,8 @@ function Users(props) {
   const update = () => {
     updateUser(user)
       .then((res) => {
-        getListUsers(0, 5).then((res) => {
-          setUser(res.data.content);
+        getListUsers(0, 20).then((res) => {
+          setUsers(res.data.content);
         });
         alert("Save thanh cong");
       })
@@ -87,8 +87,8 @@ function Users(props) {
   const deleteU = (username) => {
     deleteUser(user.username)
       .then((res) => {
-        getListUsers(0, 5).then((res) => {
-          setUser(res.data.content);
+        getListUsers(0, 20).then((res) => {
+          setUsers(res.data.content);
         });
         alert("Save thanh cong");
       })
