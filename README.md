@@ -5,7 +5,7 @@
 ![alt](https://raw.githubusercontent.com/TNhi27/MiniProjectR2S/main/Document/ktud.jpg)
 
 ## Backend
-* Sừ dụng spring boot+spring security
+* Sừ dụng Spring boot + Spring security
 * Spring JPA để kết nốI csdl
 * Hệ quản trị csdl sử dụng MYSQL
 * Sử dụng cơ chế xác thực JWT
@@ -52,6 +52,14 @@ Gồm các thành phần bên trong thư mục frontent
 Kiểm thử unit test
 [File Testcase](https://github.com/TNhi27/MiniProjectR2S/blob/main/Document/TestCase.xlsx)
 
+## YÊU CẦU
+1. JAVA 11 hoặc cao hơn
+2. My SQL
+3. NodeJS 
+
 ## HƯỚNG DẪN RUN
-
-
+1. Git clone https://github.com/TNhi27/MiniProjectR2S.git name-project
+2. Chạy script MySQL bằng file projectr2s.sql trong thư mục Document
+3. Run Backend : Run main class MiniprojectApplication.java
+4. Run Frontend: cd frontend > npm start.
+5. Login với username = admin và password = 123 để test.
