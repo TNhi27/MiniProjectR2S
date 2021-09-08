@@ -49,3 +49,9 @@ Gồm các thành phần bên trong thư mục frontent
 * POSTMAN
 * SWAGGER2 
 ## KIỂM THỬ 
+Kiểm thử unit test
+[File Testcase](https://github.com/TNhi27/MiniProjectR2S/blob/main/Document/TestCase.xlsx)
+
+## HƯỚNG DẪN RUN
+
+
